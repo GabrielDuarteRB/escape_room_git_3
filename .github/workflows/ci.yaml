@@ -15,9 +15,9 @@ jobs:
 
       - name: Instalar dependências
         run: |
-          cd nome-da-pasta
+          cd app
           npm install
-          
+
       - name: Gerar flag
         id: flag
         run: |
